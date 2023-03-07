@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödev4</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap');
+        
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            font-size: 1rem;
+            font-family: 'Shadows Into Light', cursive;
+            color: black;
+            text-shadow: 2px 2px 4px darkcyan;            
+            border-right: 5px solid white;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .navbar{
+            background: rgb(53, 51, 51);
+            width: 100%;
+            height: 50px;    
+        }
+        .navbar ul{
+            display: flex;
+            padding: 15px 0px;
+            
+        }
+        .navbar ul li{
+            list-style: none;
+        }
+        .navbar ul li a{
+            color: white;
+            text-decoration: none;
+            margin: 40px;
+            font-family: 'Aboreto', cursive;
+        }
+        .navbar ul li a:hover{
+            background: pink;
+        }
+
+        .container{
+            margin: auto;
+		    width: 1000px;
+            height: 800px;
+		    Padding: 20px;
+		    border: 2px solid grey;
+		    Overflow: auto;
+		    margin-top: 20px;
+        }
+        .con-left{
+            float: left;
+        }
+        .leftbox{
+            margin-top: 20px;
+            width: 600px;
+            height: 200px;
+            border: 2px solid grey;
+        }
+
+        .leftbox2{
+            width: 600px;
+            height: 529px;
+            border: 2px solid grey;
+            background: darkslategray;
+        }
+        .leftbox2 img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .con-right{
+            float: left;
+        }
+        .con-right .rightbox{
+            width: 250px;
+            height: 750px;
+            border: 2px solid grey;
+            margin-left: 90px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Anasayfa</a></li>
+                <li><a href="">Hakkımızda</a></li>
+                <li><a href="">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="con-left">
+            <div class="leftbox">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, tempora accusamus. Nostrum totam veritatis nulla non vel et aspernatur doloribus in, ab ullam consectetur repudiandae officia possimus quia dolore numquam dolor eveniet omnis officiis expedita laudantium quo. Dicta soluta et esse dolor, qui, quam consectetur ad ducimus odio nobis ea veniam praesentium vitae, accusamus maiores tempora nam eligendi error iure adipisci provident temporibus non. Voluptatem quibusdam neque facere eaque quam amet soluta explicabo ut.</p>
+            </div>
+            <div class="leftbox2">
+                <img src="img/ders.jpg" alt="">
+            </div>
+        </div>
+        <div class="con-right">
+            <div class="rightbox">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quisquam maiores ex enim corrupti autem perferendis vero. In modi minima consequuntur quia eum numquam vero, laboriosam ratione, quis veniam tempora sit enim libero praesentium accusamus cupiditate odit. Iste accusamus et doloremque inventore pariatur ipsum, asperiores odio eum corrupti ratione? Rem dolor dolores earum consequatur repellendus magnam dicta a modi, dolorum animi dolorem quia sint perspiciatis impedit optio at debitis cupiditate facilis tempora. Vel quaerat pariatur provident ab ratione optio a nostrum inventore voluptatum numquam mollitia, consectetur voluptate possimus ?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
